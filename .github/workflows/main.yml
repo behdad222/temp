@@ -24,7 +24,7 @@ jobs:
         run: hugo --minify
         
       - name: CNAME config
-        run: echo "test.badbakhti.xyz" > ./public/CNAME
+        run: echo "temp.badbakhti.xyz" > ./public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
